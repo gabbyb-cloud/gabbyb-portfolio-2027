@@ -1,6 +1,8 @@
 # Gabby B. — Software Engineering Portfolio
 
-A personal portfolio showcasing software engineering projects, technical skills, and development experience.
+A minimal, responsive portfolio showcasing selected work in full-stack development, QA automation, backend engineering, and systems reliability.
+
+Built with semantic HTML and CSS, without frontend frameworks, build tools, or runtime dependencies.
 
 ## Live Demo
 
@@ -8,41 +10,30 @@ Explore the deployed portfolio:
 
 [**Gabby B. — Software Engineering Portfolio**](https://gabbyb-cloud.github.io/gabbyb-portfolio-2027/)
 
-## Overview
-
-This portfolio highlights selected projects, technical experience, and an approach to building practical, user-focused software.
-
-It is designed with a clean, minimal interface that keeps the focus on the work while providing a responsive experience across different screen sizes.
-
 ## Featured Projects
-
-### [Ticket Desk QA](https://github.com/gabbyb-cloud/ticket-desk-qa-portfolio)
-
-API and browser test automation using Playwright, covering authentication, access controls, application workflows, and CI verification.
 
 ### [DocuLens](https://github.com/gabbyb-cloud/doculens)
 
-A React and TypeScript application for extracting structured invoice data, validating results, and exporting JSON.
+A React and TypeScript application for document data extraction, validation, and editable structured results, with JSON export.
 
-### [Bug Investigation Tracker](https://github.com/gabbyb-cloud/bug-investigation-tracker)
+### [Ticket Desk QA](https://github.com/gabbyb-cloud/ticket-desk-qa-portfolio)
 
-A Python and SQLite command-line application with automated tests and a documented investigation of a Windows-specific test cleanup defect.
+Automated API and browser testing covering authentication, access controls, application workflows, and CI verification using Playwright.
 
-Additional backend, performance, and Linux projects are available on [my GitHub profile](https://github.com/gabbyb-cloud).
+### [Order Fulfillment](https://github.com/gabbyb-cloud/order-fulfillment-temporal)
 
-## Features
+A backend workflow project exploring durable execution, retries, and recovery using Python, FastAPI, Temporal, and PostgreSQL.
 
-- Clean and minimal portfolio design
-- Responsive layout for different screen sizes
-- Dedicated sections for projects and professional information
-- Project-focused presentation
-- Lightweight frontend implementation
-- Accessible and user-friendly interface
+Additional work includes distributed systems performance experiments and Linux operations labs. Explore the [GitHub profile](https://github.com/gabbyb-cloud) for more projects.
 
-## Technology Stack
+## Implementation
 
-- **HTML5** — Page structure and content
-- **CSS3** — Styling, layout, and responsive design
+- Semantic HTML and responsive CSS
+- Minimal dark interface
+- Keyboard navigation with visible focus states
+- Reduced-motion support
+- Featured DocuLens screenshot demonstrating synthetic invoice data
+- Static site with no frontend frameworks, build tools, or runtime dependencies
 
 ## Project Structure
 
@@ -56,42 +47,12 @@ gabbyb-portfolio-2027/
 ├── README.md
 │
 └── assets/
-    └── ...
+    └── doculens-portfolio-cropped.webp
 ```
 
-*Note: The assets directory is represented with an ellipsis for brevity.*
+## Local Preview
 
-## Getting Started
-
-Follow these steps to run the project locally.
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/gabbyb-cloud/gabbyb-portfolio-2027.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
-cd gabbyb-portfolio-2027
-```
-
-### 3. Run locally
-
-Open `index.html` directly in your browser, or use the **Live Server** extension in Visual Studio Code for a local development server.
-
-## Deployment
-
-The portfolio is deployed using **GitHub Pages**.
-
-You can access the live version here:
-
-[https://gabbyb-cloud.github.io/gabbyb-portfolio-2027/](https://gabbyb-cloud.github.io/gabbyb-portfolio-2027/)
-
-## Accessibility
-
-The portfolio aims to provide a user-friendly browsing experience through semantic HTML, readable content, and responsive layouts.
+Clone the repository and open `index.html` directly in your browser. No additional setup or extensions are required.
 
 ## About
 
@@ -104,5 +65,3 @@ Open to remote opportunities in software engineering and QA automation.
 ---
 
 Portfolio demonstrations are not represented as production deployments. Proprietary commercial work remains private.
-
-If you find something worth improving, feel free to open an issue or submit a pull request.
