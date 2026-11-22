@@ -1,43 +1,42 @@
-# Software Engineering Portfolio
+# Full-Stack Software Engineer Portfolio
 
-A minimal, responsive portfolio featuring selected projects in software development, quality assurance, and backend engineering.
+A responsive portfolio for **Gabby B.**, an Arizona-based full-stack software engineer working with **TypeScript, React, Node.js, PostgreSQL**, SaaS development, backend services, and automated testing.
 
-Built with HTML and CSS, without a frontend framework or build dependencies.
+## Selected public projects
 
-## Featured Work
+- **[DocuLens](https://github.com/gabbyb-cloud/doculens)** — React and TypeScript invoice text extraction, editable structured results, Express API, Zod validation, and automated testing. Demo mode is deterministic; optional AI mode is clearly identified.
+- **[Ticket Desk QA](https://github.com/gabbyb-cloud/ticket-desk-qa-portfolio)** — TypeScript, Express, and Playwright API/browser tests covering authentication, authorization, CSRF, validation, and workflows, supported by GitHub Actions.
+- **[Order Fulfillment](https://github.com/gabbyb-cloud/order-fulfillment-temporal)** — Python, FastAPI, PostgreSQL, and Temporal for durable workflow orchestration, retries, compensation, and recovery.
+- **[Verbose Fortnight](https://github.com/gabbyb-cloud/verbose-fortnight)** — Open-source Python test challenges focused on reproducible defect investigation and authorization.
+- **[Linux Operations Lab](https://github.com/gabbyb-cloud/linux-operations-lab)** — Linux service diagnosis, Bash checks, networking, and recovery verification.
 
-**[Ticket Desk QA](https://github.com/gabbyb-cloud/ticket-desk-qa-portfolio)**  
-API and browser test automation using Playwright, covering authentication, access controls, application workflows, and CI verification.
+## Skills and tools
 
-**[DocuLens](https://github.com/gabbyb-cloud/doculens)**  
-A React and TypeScript application for extracting structured invoice data, validating results, and exporting JSON.
+**Languages and frameworks:** TypeScript, JavaScript, Python, SQL, React, Next.js, Node.js, Express, FastAPI.
 
-**[Bug Investigation Tracker](https://github.com/gabbyb-cloud/bug-investigation-tracker)**  
-A Python and SQLite command-line application with automated tests and a documented investigation of a Windows-specific test cleanup defect.
+**Testing and security:** Playwright, Vitest, pytest, Zod, API testing, authentication, authorization, and validation.
 
-Additional backend, performance, and Linux projects are available on [my GitHub profile](https://github.com/gabbyb-cloud).
+**Systems and tooling:** PostgreSQL, SQLite, Docker, Git, Linux, REST APIs, and GitHub Actions.
 
-## Portfolio Implementation
+These are technologies used across the author's work, not a claim of equal proficiency or production certification.
 
-- Semantic HTML and responsive CSS
-- Minimal dark interface
-- Keyboard navigation and visible focus states
+## Portfolio implementation
+
+- Single-page semantic HTML and responsive CSS; no application runtime dependencies
+- Keyboard-accessible navigation and visible focus states
 - Reduced-motion support
-- Real application screenshot using synthetic data
-- Static site with no runtime dependencies
+- DocuLens screenshot with synthetic invoice data
 
-## Local Preview
+## Local preview
 
-Clone the repository and open `index.html` in a browser.
+Clone this repository and open `index.html` in a browser.
 
-## About
+## Contact
 
-I'm an independent software engineer based in Arizona, focused on building, testing, debugging, and improving reliable software.
-
-Open to remote opportunities in software engineering and QA automation.
+Open to remote full-stack, backend, and software engineering opportunities.
 
 [GitHub](https://github.com/gabbyb-cloud) · [Email](mailto:gabbybcloud@proton.me)
 
 ---
 
-Portfolio demonstrations are not represented as production deployments. Proprietary commercial work remains private.
+Portfolio demonstrations are not represented as production deployments. Proprietary commercial work, source code, and operational evidence remain private.
